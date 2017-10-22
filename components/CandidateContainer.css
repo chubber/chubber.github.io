@@ -1,0 +1,34 @@
+/*CSS for CandidateContainer*/
+.flexibleBoxContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  padding: 0 6px 20px 6px;
+}
+
+.flexItem {
+  width: 246px;
+  background: #D7DADB;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 0 0 12px 0;
+}
+
+.flexItem h2 {
+  color: #E33229;
+  margin: 5px 5px 12px 05px;
+}
+
+button.addCandidate {
+  background: #E33229;
+  color: #ffffff;
+  width: 100%;
+  padding: 10px 0;
+}
+
+button.addCandidate:hover {
+  text-decoration: underline;
+}

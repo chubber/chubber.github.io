@@ -1,0 +1,14 @@
+.SearchInput {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 500px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  padding: 0 0 0 15px;
+  margin: 0 auto;
+  display: block;
+}
+input::placeholder {
+  color: #0A1829;
+}
